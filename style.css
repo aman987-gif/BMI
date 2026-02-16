@@ -100,7 +100,7 @@ body{
     width: 100%;
 }
 
-@media screen and (max-width:490px) {
+/* @media screen and (max-width:490px) {
     .root{
         background-color: yellow;
     }
@@ -108,4 +108,4 @@ body{
     .fist .sist{
         flex-direction: column;
     }
-}
+} */
