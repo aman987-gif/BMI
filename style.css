@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border: 1px solid black;
+    height: 30rem;
+    width: 28rem;
+    background-color: rgba(245, 222, 179, 0.472);
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    margin-top: 4rem;
+
+    
+}
+
+#heropara{
+    margin-bottom: 2rem;
+}
+
+.handw{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header{
+    height: 4rem;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 68, 0);
+    border: 1px solid black;
+    padding: 1rem;
+    color: white;
+}
+
+#height{
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    width: 13rem;
+    padding: 0.2rem;
+}
+
+#weight{
+     margin-left: 1rem;
+     font-size: 1.1rem;
+    width: 13rem;
+    padding: 0.2rem;
+}
+
+#catogery{
+    text-align: center;
+    margin-right: 10rem;
+    font-size: 1.3rem;
+}
+
+#submit{
+    background-color: orangered;
+    font-size: medium;
+    border-radius: 12%;
+    padding: 0.5rem;
+    color: white;
+}
+
+.ss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result{
+    text-align: center;
+    width: 100%;
+
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#catogery{
+    width: 100%;
+}
+
+@media screen and (max-width:490px) {
+    .root{
+        background-color: yellow;
+    }
+
+    .fist .sist{
+        flex-direction: column;
+    }
+}
